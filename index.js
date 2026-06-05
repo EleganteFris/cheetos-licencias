@@ -4,8 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 // Aquí dentro de las comillas pondrás las llaves de tus compradores
 const LLAVES_PERMITIDAS = [
-    "COMPRADOR-BUILTBYBIT-1",
-    "PRUEBA-TEST-123"
+    "ccac_live_7f8a29b4e13c90d52f6e4a8b71c93a02"
 ];
 
 app.get('/verificar', (req, res) => {
